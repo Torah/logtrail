@@ -1,0 +1,35 @@
+{
+  "name": "kibana-milestones-vis",
+  "version": "6.4.3",
+  "description": "A d3 based timeline visualization kibana plugin.",
+  "main": "index.js",
+  "homepage": "https://github.com/elastic/kibana-milestones-vis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elastic/kibana-milestones-vis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elastic/kibana-milestones-vis/issues"
+  },
+  "license": "Apache-2.0",
+  "contributors": [
+    "Walter Rafelsberger <walter.rafelsberger@elastic.co>"
+  ],
+  "kibana": {
+    "version": "6.4.0",
+    "templateVersion": "1.0.0"
+  },
+  "dependencies": {
+    "d3": "3.5.6",
+    "d3-milestones": "1.0.0-alpha10",
+    "lodash": "3.10.1"
+  },
+  "build": {
+    "git": {
+      "count": "36",
+      "sha": "51aa212",
+      "date": "Mon, 3 Dec 2018 10:57:36 +0100"
+    },
+    "date": "Mon Dec 03 2018 11:04:52 GMT+0100 (CET)"
+  }
+}
